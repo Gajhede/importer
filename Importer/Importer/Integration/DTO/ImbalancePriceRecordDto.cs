@@ -1,6 +1,6 @@
 ﻿namespace Importer.Integration.DTO
 {
-    internal class ImbalancePriceRecordDto
+    public class ImbalancePriceRecordDto
     {
         public DateTime TimeUTC { get; set; }
 

@@ -1,4 +1,5 @@
 <Solution>
   <Folder Name="/Solution Items/" />
+  <Project Path="Importer.UnitTests/Importer.UnitTests.csproj" Id="6ad90ce8-bb01-4d82-8e1c-43e1bf9c5ef9" />
   <Project Path="Importer/Importer.csproj" />
 </Solution>

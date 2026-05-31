@@ -2,7 +2,7 @@
 
 namespace Importer.Repositories
 {
-    internal class ImbalancePriceRepository
+    public class ImbalancePriceRepository
     {
         public Task<int> Persist(ImporterDbContext db, ImbalancePrice? res)
         {

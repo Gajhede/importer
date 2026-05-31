@@ -1,6 +1,6 @@
 ﻿namespace Importer
 {
-    internal class ImbalancePrice(DateTime TimestampUtc, PriceArea Area, decimal? ImbalancePriceEUR, decimal? ImbalancePriceDKK)
+    public class ImbalancePrice(DateTime TimestampUtc, PriceArea Area, decimal? ImbalancePriceEUR, decimal? ImbalancePriceDKK)
     {
         public DateTime TimestampUtc { get; set; } = TimestampUtc;
         public PriceArea Area { get; set; } = Area;

@@ -2,7 +2,7 @@
 
 namespace Importer.Integration
 {
-    internal class EnergyDataIntegrationDTOParser
+    public class EnergyDataIntegrationDTOParser
     {
         public ImbalancePrice Parse(ImbalancePriceRecordDto record)
         {

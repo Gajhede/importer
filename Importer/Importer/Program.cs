@@ -2,7 +2,6 @@
 using Importer.Configuration;
 using Importer.Integration;
 using Importer.Repositories;
-using Microsoft.EntityFrameworkCore;
 
 using var db = new ImporterDbContext();
 EnergyDataIntegration energyDataIntegration = new EnergyDataIntegration();
